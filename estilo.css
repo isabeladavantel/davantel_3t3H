@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+    
+.conteudo {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+}
+.pessoal {
+    width: 100vw;
+    display: flex;
+    flex-direction: row; 
+    background-color: pink;
+}
+.foto{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.info { 
+    width: calc(100vw - 200px);
+    display: flex;
+    align-items: center;
+}
+#foto_pessoal {
+    width: 100px;
+    border-radius: 50%;
+} 
